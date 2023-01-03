@@ -50,16 +50,18 @@ export default function Home() {
           </Text>
         </Box>
         <Box>
-          <Text fontSize="xl" pt="2rem">
-            <Stack direction={['column', 'row']} spacing="24px">
+          <Stack direction={['column', 'row']} spacing="24px">
+            <Text fontSize="xl" pt="2rem">
               <Link href="https://github.com/boromihir" isExternal>
                 GitHub <ExternalLinkIcon />
               </Link>
+            </Text>
+            <Text fontSize="xl" pt="2rem">
               <Link href="https://twitter.com/faramihir" isExternal>
                 Twitter <ExternalLinkIcon />
               </Link>
-            </Stack>
-          </Text>
+            </Text>
+          </Stack>
         </Box>
       </Container>
     </>
